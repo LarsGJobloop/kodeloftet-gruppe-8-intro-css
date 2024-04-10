@@ -1,32 +1,25 @@
+/*
+    Overskrive default styling
+    (noramalize css, reset css)
+ */
+* {
+    margin: 0px;
+}
+
 body {
-    background-color: blueviolet;
+    min-height: 100vh; /* vh = veiw heights */
+    display: flex;
+    flex-direction: column;
 }
 
-h1 {
-    background-color: bisque;
+#navbar {
+    background-color: rgb(191, 190, 198)
 }
 
-h2 {
-    background-color: chocolate;
+#main {
+    flex-grow: 1;
 }
 
-span {
-    color: gold;
-}
-
-.background-color-white {
-    background-color: white;
-}
-
-#welcome-section {
-    background-color: slategray;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-#project-section {
-    background-color: rgb(142, 130, 2);
-    padding: 10px;
+#footer {
+    background-color: rgb(191, 190, 198)
 }
