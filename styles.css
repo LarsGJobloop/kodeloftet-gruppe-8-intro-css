@@ -6,6 +6,10 @@
     margin: 0px;
 }
 
+img {
+    width: 100%;
+}
+
 body {
     min-height: 100vh; /* vh = veiw heights */
     display: flex;
@@ -30,5 +34,14 @@ body {
 #intro-section {
     background-color: rgb(251, 170, 140);
     padding: 20px;
+    text-align: center;
+}
+
+/* Projekt Kort */
+.project-card {
+    padding: 10px;
+}
+
+.project-card > h2 {
     text-align: center;
 }
