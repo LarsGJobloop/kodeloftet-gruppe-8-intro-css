@@ -1,0 +1,32 @@
+body {
+    background-color: blueviolet;
+}
+
+h1 {
+    background-color: bisque;
+}
+
+h2 {
+    background-color: chocolate;
+}
+
+span {
+    color: gold;
+}
+
+.background-color-white {
+    background-color: white;
+}
+
+#welcome-section {
+    background-color: slategray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#project-section {
+    background-color: rgb(142, 130, 2);
+    padding: 10px;
+}
