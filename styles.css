@@ -12,8 +12,10 @@ body {
     flex-direction: column;
 }
 
+
+/* Overordnet layout */
 #navbar {
-    background-color: rgb(191, 190, 198)
+    background-color: rgb(191, 190, 198);
 }
 
 #main {
@@ -21,5 +23,12 @@ body {
 }
 
 #footer {
-    background-color: rgb(191, 190, 198)
+    background-color: rgb(191, 190, 198);
+}
+
+/* Sekjsoner */
+#intro-section {
+    background-color: rgb(251, 170, 140);
+    padding: 20px;
+    text-align: center;
 }
