@@ -4,7 +4,7 @@
 :root[data-theme="light"] {
     --color-text: #150316;
     --color-background: #fcf2fd;
-    --color-primary: #cd2ce2;
+    --color-primary: rgb(129, 44, 226);
     --color-secondary: #edc682;
     --color-accent: #c8ea62;
 }
@@ -14,6 +14,15 @@
     --color-primary: #be1dd3;
     --color-secondary: #7d5612;
     --color-accent: #7b9d15;
+}
+
+/*
+    Avstander (Spacing)
+*/
+:root {
+    --spacing-small: 10px;
+    --spacing-medium: 20px;
+    --spacing-large: 40px;
 }
 
 .bg-primary {
@@ -64,13 +73,13 @@ body {
 /* Sekjsoner */
 #intro-section {
     background-color: var(--color-background);
-    padding: 20px;
+    padding: var(--spacing-small);
     text-align: center;
 }
 
 /* Projekt Kort */
 .project-card {
-    padding: 10px;
+    padding: var(--spacing-medium);
 }
 
 .project-card > h2 {
